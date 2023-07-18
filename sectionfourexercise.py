@@ -10,7 +10,7 @@ else:
     print('x equals y')
 # Exercise 2 ends
 
-# Challenge exercise
+# Challenge exercise -
 print()
 name = input("Whats your name? ")
 age = int(input("Whats your age? "))
@@ -21,3 +21,16 @@ else:
     print("Unfortunately have to refuse you entry")
 
 print("Your name is {0} and you are {1} years old.".format(name, age))
+# Challenge done
+
+# Challenge exercise - Print out capital letters in a string
+quote = """
+Alright, but apart from the Sanitation, the Medicine, Education, Wine,
+Public Order, Irrigation, Roads, the Fresh-Water System,
+and Public Health, what have the Romans ever done for us?
+"""
+
+# Use a for loop and an if statement to print just the capitals in the quote above.
+for check in quote:
+    if check.isupper():
+        print(check)
