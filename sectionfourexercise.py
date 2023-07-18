@@ -34,3 +34,15 @@ and Public Health, what have the Romans ever done for us?
 for check in quote:
     if check.isupper():
         print(check)
+# Challenge done
+
+# Challenge Exercise - Range challenge
+for i in range(0, 10):
+    print(i)
+# Challenge done
+
+# Challenge Exercise - For loop with step to check numbers divisible by 7
+for i in range(0, 101):
+    if i % 7 == 0:
+        print(i)
+# Challenge done
